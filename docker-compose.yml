@@ -7,7 +7,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=NewZealand/Auckland
-      - CONTEXT_PATH='https://home.problex.com/music'
+      - CONTEXT_PATH=/music
     volumes:
       - /mnt/docker/airsonic/config:/config
       - /mnt/nasMedia/Music/Lidarr:/music
